@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthStar - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .language-selector {
+            position: sticky;
+            top: 20px;
+            text-align: right;
+            margin-bottom: 30px;
+            z-index: 100;
+        }
+
+        .lang-btn {
+            background: #007AFF;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin-left: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .lang-btn:hover {
+            background: #0051D5;
+        }
+
+        .lang-btn.active {
+            background: #0051D5;
+            font-weight: 600;
+        }
+
+        h1 {
+            color: #1d1d1f;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #86868b;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #1d1d1f;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #1d1d1f;
+            font-size: 18px;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p, li {
+            margin-bottom: 12px;
+            color: #515154;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 16px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #d2d2d7;
+            margin: 30px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <button class="lang-btn active" onclick="switchLanguage('en')">English</button>
+            <button class="lang-btn" onclick="switchLanguage('fr')">Français</button>
+        </div>
+
+        <!-- ENGLISH VERSION -->
+        <div id="en" class="section active">
+            <h1>NorthStar Privacy Policy</h1>
+            <p class="last-updated"><strong>Last Updated:</strong> November 13, 2024</p>
+
+            <h2>Overview</h2>
+            <p>NorthStar ("the App") is committed to protecting your privacy. This privacy policy explains how we handle your information when you use our iOS application.</p>
+
+            <h2>Information Collection and Use</h2>
+
+            <h3>What We Collect</h3>
+            <p>NorthStar collects and stores the following information <strong>locally on your device only</strong>:</p>
+
+            <h4>Health Data</h4>
+            <ul>
+                <li><strong>Medication Information:</strong> Names, dosages, schedules, and tracking of taken medications</li>
+                <li><strong>Mood Logs:</strong> Mood levels, energy levels, anxiety levels, and related notes</li>
+                <li><strong>Sleep Data:</strong> Sleep start/end times, quality ratings, interruptions, and notes</li>
+                <li><strong>Side Effects:</strong> Logged side effects associated with medications</li>
+            </ul>
+
+            <h4>HealthKit Data</h4>
+            <ul>
+                <li><strong>Sleep Analysis:</strong> The app can read sleep data from Apple HealthKit (with your explicit permission)</li>
+                <li>This data is used only to automatically populate sleep tracking entries</li>
+                <li>We never write data to HealthKit or modify your Health app data</li>
+            </ul>
+
+            <h4>Device Information</h4>
+            <ul>
+                <li><strong>Local Notifications:</strong> Medication reminder preferences and scheduled notifications</li>
+                <li><strong>Widget Data:</strong> Information shared with the home screen widget via App Groups</li>
+            </ul>
+
+            <h3>What We DON'T Collect</h3>
+            <ul>
+                <li>❌ No personal identifying information (name, email, phone number)</li>
+                <li>❌ No location data</li>
+                <li>❌ No usage analytics or tracking</li>
+                <li>❌ No advertising identifiers</li>
+                <li>❌ No camera or microphone access</li>
+                <li>❌ No contacts or photos</li>
+            </ul>
+
+            <h2>Data Storage</h2>
+
+            <h3>Local Storage</h3>
+            <ul>
+                <li>All health data is stored <strong>locally on your device</strong> using Core Data (Apple's encrypted database)</li>
+                <li>Data never leaves your device unless you explicitly use the iCloud sync feature</li>
+                <li>Data is protected by your device's passcode/Face ID/Touch ID</li>
+            </ul>
+
+            <h3>iCloud Sync (Optional)</h3>
+            <p>If you enable iCloud sync:</p>
+            <ul>
+                <li>Data is synced to <strong>your personal iCloud account</strong> using CloudKit</li>
+                <li>Data is encrypted in transit and at rest</li>
+                <li>Only accessible from devices signed in to your iCloud account</li>
+                <li>We (the developers) cannot access your iCloud data</li>
+                <li>You can disable iCloud sync at any time in the app settings</li>
+            </ul>
+
+            <h2>Data Usage</h2>
+            <p>Your data is used exclusively for:</p>
+            <ol>
+                <li><strong>Medication Management:</strong> Display medication schedules, send reminders, track adherence</li>
+                <li><strong>Health Tracking:</strong> Log and visualize mood and sleep patterns</li>
+                <li><strong>Analytics:</strong> Calculate statistics and trends (all processed locally)</li>
+                <li><strong>Data Export:</strong> Generate PDF and CSV reports when you request them</li>
+                <li><strong>Widget Display:</strong> Show medication information on your home screen widget</li>
+            </ol>
+
+            <div class="highlight">
+                <strong>We do not:</strong>
+                <ul>
+                    <li>Share data with third parties</li>
+                    <li>Sell or rent your data</li>
+                    <li>Use your data for advertising</li>
+                    <li>Send your data to remote servers</li>
+                </ul>
+            </div>
+
+            <h2>Third-Party Services</h2>
+            <p>NorthStar does <strong>NOT</strong> use any third-party services, including:</p>
+            <ul>
+                <li>No analytics frameworks (no Google Analytics, Mixpanel, etc.)</li>
+                <li>No crash reporting services</li>
+                <li>No advertising networks</li>
+                <li>No social media integrations</li>
+                <li>No cloud storage except Apple's iCloud (if you enable it)</li>
+            </ul>
+
+            <h2>HealthKit Integration</h2>
+
+            <h3>Permissions</h3>
+            <p>The app requests permission to <strong>read</strong> sleep analysis data from HealthKit.</p>
+
+            <h3>Usage</h3>
+            <ul>
+                <li>HealthKit sleep data is used to automatically import sleep sessions</li>
+                <li>You can grant or revoke this permission at any time in iOS Settings → Health → Data Access & Devices → NorthStar</li>
+                <li>Revoking access will not delete any data already imported</li>
+            </ul>
+
+            <h3>Privacy</h3>
+            <ul>
+                <li>We comply with Apple's HealthKit guidelines</li>
+                <li>HealthKit data is never shared with third parties</li>
+                <li>HealthKit data is never used for advertising or marketing</li>
+            </ul>
+
+            <h2>Your Rights</h2>
+
+            <h3>Access Your Data</h3>
+            <ul>
+                <li>View all your data within the app at any time</li>
+                <li>Export your data as PDF or CSV files</li>
+            </ul>
+
+            <h3>Delete Your Data</h3>
+            <ul>
+                <li>Delete individual entries at any time</li>
+                <li>Delete all app data by deleting the app</li>
+                <li>Disabling iCloud sync will not delete local data, only stop syncing</li>
+            </ul>
+
+            <h3>Manage Permissions</h3>
+            <ul>
+                <li>Control HealthKit access in iOS Settings</li>
+                <li>Control notification permissions in iOS Settings</li>
+            </ul>
+
+            <h2>Data Security</h2>
+            <ul>
+                <li>✅ <strong>Encryption:</strong> All data encrypted using iOS Core Data encryption</li>
+                <li>✅ <strong>Device Protection:</strong> Data protected by your device's passcode/biometric authentication</li>
+                <li>✅ <strong>iCloud Encryption:</strong> CloudKit data encrypted in transit and at rest</li>
+                <li>✅ <strong>No Remote Storage:</strong> No data stored on our servers</li>
+                <li>✅ <strong>No Authentication:</strong> No passwords or accounts that could be compromised</li>
+            </ul>
+
+            <h2>Contact Us</h2>
+            <p>If you have questions about this privacy policy or how we handle your data:</p>
+            <p>
+                <strong>Support:</strong> <a href="https://github.com/ValentinCousien/NorthStar-iOS/issues" target="_blank">GitHub Issues</a><br>
+                <strong>Repository:</strong> <a href="https://github.com/ValentinCousien/NorthStar-iOS" target="_blank">GitHub</a>
+            </p>
+            <p>For support, questions, or to report issues, please open an issue on our GitHub repository.</p>
+
+            <h2>Legal Compliance</h2>
+            <p>This app complies with:</p>
+            <ul>
+                <li>Apple App Store Review Guidelines</li>
+                <li>iOS HealthKit Privacy Guidelines</li>
+                <li>GDPR (General Data Protection Regulation) - for EU users</li>
+                <li>CCPA (California Consumer Privacy Act) - for California users</li>
+                <li>PIPEDA (Personal Information Protection and Electronic Documents Act) - for Canadian users</li>
+            </ul>
+
+            <h2>Medical Disclaimer</h2>
+            <p>NorthStar is a tracking and organizational tool. It is <strong>not a substitute for professional medical advice, diagnosis, or treatment</strong>. Always seek the advice of your physician or qualified health provider with any questions regarding a medical condition.</p>
+
+            <hr>
+            <p><em>This privacy policy is effective as of November 13, 2024.</em></p>
+        </div>
+
+        <!-- FRENCH VERSION -->
+        <div id="fr" class="section">
+            <h1>Politique de Confidentialité de NorthStar</h1>
+            <p class="last-updated"><strong>Dernière mise à jour :</strong> 13 novembre 2024</p>
+
+            <h2>Aperçu</h2>
+            <p>NorthStar ("l'Application") s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous traitons vos informations lorsque vous utilisez notre application iOS.</p>
+
+            <h2>Collecte et Utilisation des Informations</h2>
+
+            <h3>Ce Que Nous Collectons</h3>
+            <p>NorthStar collecte et stocke les informations suivantes <strong>localement sur votre appareil uniquement</strong> :</p>
+
+            <h4>Données de Santé</h4>
+            <ul>
+                <li><strong>Informations sur les Médicaments :</strong> Noms, dosages, horaires et suivi des médicaments pris</li>
+                <li><strong>Journaux d'Humeur :</strong> Niveaux d'humeur, d'énergie, d'anxiété et notes associées</li>
+                <li><strong>Données de Sommeil :</strong> Heures de début/fin de sommeil, évaluations de qualité, interruptions et notes</li>
+                <li><strong>Effets Secondaires :</strong> Effets secondaires enregistrés associés aux médicaments</li>
+            </ul>
+
+            <h4>Données HealthKit</h4>
+            <ul>
+                <li><strong>Analyse du Sommeil :</strong> L'application peut lire les données de sommeil depuis Apple HealthKit (avec votre permission explicite)</li>
+                <li>Ces données sont utilisées uniquement pour remplir automatiquement les entrées de suivi du sommeil</li>
+                <li>Nous n'écrivons jamais de données dans HealthKit et ne modifions pas vos données de l'app Santé</li>
+            </ul>
+
+            <h4>Informations de l'Appareil</h4>
+            <ul>
+                <li><strong>Notifications Locales :</strong> Préférences de rappel de médicaments et notifications programmées</li>
+                <li><strong>Données du Widget :</strong> Informations partagées avec le widget d'écran d'accueil via les App Groups</li>
+            </ul>
+
+            <h3>Ce Que Nous NE Collectons PAS</h3>
+            <ul>
+                <li>❌ Aucune information personnelle identifiable (nom, email, numéro de téléphone)</li>
+                <li>❌ Aucune donnée de localisation</li>
+                <li>❌ Aucune analytique ou suivi d'utilisation</li>
+                <li>❌ Aucun identifiant publicitaire</li>
+                <li>❌ Aucun accès à la caméra ou au microphone</li>
+                <li>❌ Aucun accès aux contacts ou photos</li>
+            </ul>
+
+            <h2>Stockage des Données</h2>
+
+            <h3>Stockage Local</h3>
+            <ul>
+                <li>Toutes les données de santé sont stockées <strong>localement sur votre appareil</strong> en utilisant Core Data (base de données chiffrée d'Apple)</li>
+                <li>Les données ne quittent jamais votre appareil sauf si vous activez explicitement la synchronisation iCloud</li>
+                <li>Les données sont protégées par le code de votre appareil/Face ID/Touch ID</li>
+            </ul>
+
+            <h3>Synchronisation iCloud (Optionnel)</h3>
+            <p>Si vous activez la synchronisation iCloud :</p>
+            <ul>
+                <li>Les données sont synchronisées avec <strong>votre compte iCloud personnel</strong> via CloudKit</li>
+                <li>Les données sont chiffrées en transit et au repos</li>
+                <li>Accessibles uniquement depuis les appareils connectés à votre compte iCloud</li>
+                <li>Nous (les développeurs) ne pouvons pas accéder à vos données iCloud</li>
+                <li>Vous pouvez désactiver la synchronisation iCloud à tout moment dans les paramètres de l'app</li>
+            </ul>
+
+            <h2>Utilisation des Données</h2>
+            <p>Vos données sont utilisées exclusivement pour :</p>
+            <ol>
+                <li><strong>Gestion des Médicaments :</strong> Afficher les horaires, envoyer des rappels, suivre l'adhérence</li>
+                <li><strong>Suivi de Santé :</strong> Enregistrer et visualiser les tendances d'humeur et de sommeil</li>
+                <li><strong>Analytique :</strong> Calculer des statistiques et tendances (tout traité localement)</li>
+                <li><strong>Export de Données :</strong> Générer des rapports PDF et CSV sur votre demande</li>
+                <li><strong>Affichage Widget :</strong> Afficher les informations de médicaments sur le widget d'écran d'accueil</li>
+            </ol>
+
+            <div class="highlight">
+                <strong>Nous ne :</strong>
+                <ul>
+                    <li>Partageons pas de données avec des tiers</li>
+                    <li>Vendons ou louons pas vos données</li>
+                    <li>Utilisons pas vos données pour la publicité</li>
+                    <li>Envoyons pas vos données vers des serveurs distants</li>
+                </ul>
+            </div>
+
+            <h2>Services Tiers</h2>
+            <p>NorthStar n'utilise <strong>AUCUN</strong> service tiers, y compris :</p>
+            <ul>
+                <li>Aucun framework d'analytique (pas de Google Analytics, Mixpanel, etc.)</li>
+                <li>Aucun service de rapport de crash</li>
+                <li>Aucun réseau publicitaire</li>
+                <li>Aucune intégration de réseaux sociaux</li>
+                <li>Aucun stockage cloud sauf iCloud d'Apple (si vous l'activez)</li>
+            </ul>
+
+            <h2>Intégration HealthKit</h2>
+
+            <h3>Permissions</h3>
+            <p>L'application demande la permission de <strong>lire</strong> les données d'analyse du sommeil depuis HealthKit.</p>
+
+            <h3>Utilisation</h3>
+            <ul>
+                <li>Les données de sommeil HealthKit sont utilisées pour importer automatiquement les sessions de sommeil</li>
+                <li>Vous pouvez accorder ou révoquer cette permission à tout moment dans Réglages iOS → Santé → Accès aux données et appareils → NorthStar</li>
+                <li>Révoquer l'accès ne supprimera pas les données déjà importées</li>
+            </ul>
+
+            <h3>Confidentialité</h3>
+            <ul>
+                <li>Nous respectons les directives HealthKit d'Apple</li>
+                <li>Les données HealthKit ne sont jamais partagées avec des tiers</li>
+                <li>Les données HealthKit ne sont jamais utilisées pour la publicité ou le marketing</li>
+            </ul>
+
+            <h2>Vos Droits</h2>
+
+            <h3>Accéder à Vos Données</h3>
+            <ul>
+                <li>Consultez toutes vos données dans l'app à tout moment</li>
+                <li>Exportez vos données en fichiers PDF ou CSV</li>
+            </ul>
+
+            <h3>Supprimer Vos Données</h3>
+            <ul>
+                <li>Supprimez les entrées individuelles à tout moment</li>
+                <li>Supprimez toutes les données de l'app en supprimant l'application</li>
+                <li>Désactiver la synchronisation iCloud ne supprime pas les données locales, arrête seulement la synchronisation</li>
+            </ul>
+
+            <h3>Gérer les Permissions</h3>
+            <ul>
+                <li>Contrôlez l'accès HealthKit dans les Réglages iOS</li>
+                <li>Contrôlez les permissions de notification dans les Réglages iOS</li>
+            </ul>
+
+            <h2>Sécurité des Données</h2>
+            <ul>
+                <li>✅ <strong>Chiffrement :</strong> Toutes les données chiffrées avec le chiffrement Core Data iOS</li>
+                <li>✅ <strong>Protection de l'Appareil :</strong> Données protégées par le code/authentification biométrique de votre appareil</li>
+                <li>✅ <strong>Chiffrement iCloud :</strong> Données CloudKit chiffrées en transit et au repos</li>
+                <li>✅ <strong>Pas de Stockage Distant :</strong> Aucune donnée stockée sur nos serveurs</li>
+                <li>✅ <strong>Pas d'Authentification :</strong> Aucun mot de passe ou compte pouvant être compromis</li>
+            </ul>
+
+            <h2>Nous Contacter</h2>
+            <p>Si vous avez des questions sur cette politique de confidentialité ou sur la manière dont nous traitons vos données :</p>
+            <p>
+                <strong>Support :</strong> <a href="https://github.com/ValentinCousien/NorthStar-iOS/issues" target="_blank">GitHub Issues</a><br>
+                <strong>Dépôt :</strong> <a href="https://github.com/ValentinCousien/NorthStar-iOS" target="_blank">GitHub</a>
+            </p>
+            <p>Pour le support, les questions ou pour signaler des problèmes, veuillez ouvrir une issue sur notre dépôt GitHub.</p>
+
+            <h2>Conformité Légale</h2>
+            <p>Cette application est conforme à :</p>
+            <ul>
+                <li>Directives de révision de l'App Store d'Apple</li>
+                <li>Directives de confidentialité HealthKit iOS</li>
+                <li>RGPD (Règlement Général sur la Protection des Données) - pour les utilisateurs de l'UE</li>
+                <li>CCPA (California Consumer Privacy Act) - pour les utilisateurs californiens</li>
+                <li>LPRPDE (Loi sur la protection des renseignements personnels et les documents électroniques) - pour les utilisateurs canadiens</li>
+            </ul>
+
+            <h2>Avertissement Médical</h2>
+            <p>NorthStar est un outil de suivi et d'organisation. Ce n'est <strong>pas un substitut aux conseils, diagnostics ou traitements médicaux professionnels</strong>. Consultez toujours votre médecin ou professionnel de santé qualifié pour toute question concernant un problème médical.</p>
+
+            <hr>
+            <p><em>Cette politique de confidentialité est effective à partir du 13 novembre 2024.</em></p>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show selected section
+            document.getElementById(lang).classList.add('active');
+
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Update page lang attribute
+            document.documentElement.lang = lang;
+
+            // Update URL hash (optional, for bookmarking specific language)
+            window.location.hash = lang;
+        }
+
+        // Check for language preference in URL hash on page load
+        window.addEventListener('load', function() {
+            const hash = window.location.hash.substring(1);
+            if (hash === 'fr') {
+                switchLanguage('fr');
+            }
+        });
+    </script>
+</body>
+</html>
